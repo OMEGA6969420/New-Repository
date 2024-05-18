@@ -12,6 +12,6 @@ for i in range(5):
     word = input("Buenos dias usuario, porfavor escribe una palabra que no entiendas (¡con mayúsculas!): ")
 
     if word in meme_dict.keys():
-        print("Esa palabra es un meme")
+        print(meme_dict[word])
     else:
         print("Esa palabra no es un meme")
